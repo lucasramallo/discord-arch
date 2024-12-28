@@ -1,5 +1,16 @@
 # Discord Arch
 
+![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white)
+![Phoenix](https://img.shields.io/badge/Phoenix%20Framework-FD4F00?style=for-the-badge&logo=phoenixframework&logoColor=fff)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=ffffff)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=ffffff)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=ffffff)
+![Redis](https://img.shields.io/badge/Redis-D92D2A?style=for-the-badge&logo=redis&logoColor=ffffff)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=ffffff)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000000)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010001?style=for-the-badge&logo=socket-dot-io&logoColor=ffffff)
+
 Este projeto é uma simulação da arquitetura de comunicação em tempo real do Discord, focado no envio de mensagens entre usuários em canais de texto e servidores. Ele implementa uma solução de backend utilizando Elixir para gerenciar conexões WebSocket em tempo real, Java para a API e a lógica de negócios, além de bancos de dados como PostgreSQL e MongoDB para armazenamento de dados estruturados e históricos de mensagens.
 
 ## Arquitetura
@@ -23,18 +34,6 @@ O módulo **Front** é o frontend da aplicação, responsável por fornecer a in
 A plataforma é composta pelos seguintes componentes:
 
 # Tecnologias Utilizadas
-
-![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white)
-![Phoenix](https://img.shields.io/badge/Phoenix%20Framework-FD4F00?style=for-the-badge&logo=phoenixframework&logoColor=fff)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=ffffff)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=ffffff)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=ffffff)
-![Redis](https://img.shields.io/badge/Redis-D92D2A?style=for-the-badge&logo=redis&logoColor=ffffff)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=ffffff)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000000)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010001?style=for-the-badge&logo=socket-dot-io&logoColor=ffffff)
-
 
 - **Elixir**: Gerencia conexões em tempo real (WebSockets).
 - **Java**: Implementa a API e a lógica de negócios.
