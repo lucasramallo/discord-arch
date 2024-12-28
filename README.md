@@ -29,10 +29,6 @@ O módulo **Server** implementa a lógica de negócios, gestão de usuários, se
 
 O módulo **Front** é o frontend da aplicação, responsável por fornecer a interface do usuário.
 
-## Techs
-
-A plataforma é composta pelos seguintes componentes:
-
 # Tecnologias Utilizadas
 
 - **Elixir**: Gerencia conexões em tempo real (WebSockets).
