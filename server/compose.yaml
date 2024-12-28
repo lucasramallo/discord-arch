@@ -1,0 +1,14 @@
+services:
+  postgres:
+    container_name: discord
+    hostname: discord
+    image: postgres
+    restart: always
+    volumes:
+      - ./local/path:/container/path
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: discord
+    ports:
+      - 5433:5432
