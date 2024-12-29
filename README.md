@@ -31,8 +31,8 @@ O módulo **Front** é o frontend da aplicação, responsável por fornecer a in
 
 # Tecnologias Utilizadas
 
-- **Elixir**: Gerencia conexões em tempo real (WebSockets).
-- **Java**: Implementa a API e a lógica de negócios.
+- **Elixir (Phoenix)**: Gerencia conexões em tempo real (WebSockets).
+- **Java (SpringBoot)**: Implementa a API e a lógica de negócios.
 - **Redis**: Cache para operações rápidas e temporárias.
 - **PostgreSQL**: Armazena dados estruturados, como informações sobre usuários, servidores e canais.
 - **MongoDB**: Armazena históricos de mensagens, aproveitando a flexibilidade para lidar com grandes volumes de dados não estruturados.
