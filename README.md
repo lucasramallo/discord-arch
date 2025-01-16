@@ -25,7 +25,7 @@ O módulo **Hermes** é responsável por gerenciar as conexões em tempo real ut
 
 O módulo **Server** implementa a lógica de negócios, gestão de usuários, servidores e canais. Ele processa as requisições do frontend, valida permissões e interage com os bancos de dados **PostgreSQL** (para dados estruturados) e **MongoDB** (para histórico de mensagens). Também é responsável por cache de dados utilizando **Redis** e pela autenticação e autorização de usuários.
 
-### **3. Front (Node.js)**
+### [3. Client (Node)](https://github.com/lucasramallo/discord-arch/tree/main/client)
 
 O módulo **Front** é o frontend da aplicação, responsável por fornecer a interface do usuário.
 
